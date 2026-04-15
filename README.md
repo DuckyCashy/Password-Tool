@@ -1,53 +1,26 @@
-# 🔐 Password Generator by Duckycash
+# Password Generator by Duckycash
 
-A modern, clean, and customizable password generator with a built-in strength tester.
-
----
-
-## ✨ Features
-
-* 🔑 Generate secure random passwords
-* ⚙️ Custom settings (length, uppercase, lowercase, numbers, symbols)
-* 📊 Password strength indicator (Weak / Medium / Strong)
-* 🧪 Password Tester tab to check any password
-* 📋 One-click copy to clipboard
-* 🎨 Smooth UI with gradient & glow effects
+A simple and customizable password generator with a built-in password strength tester.
 
 ---
 
-## 📸 Preview
+## Features
 
-<img width="600" alt="preview" src="https://via.placeholder.com/800x400.png?text=Password+Generator+Preview">
-
----
-
-## 🚀 Live Demo
-
-👉 (Enable GitHub Pages to add your link here)
+* Generate random secure passwords
+* Adjustable length and character options
+* Password strength indicator
+* Password tester tool
+* Copy to clipboard
 
 ---
 
-## 📂 How to Use
+## Live Demo
 
-1. Clone the repo:
-
-```
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-```
-
-2. Open the project:
-
-```
-cd YOUR_REPO
-```
-
-3. Run it:
-
-* Open `index.html` in your browser
+Enable GitHub Pages to add your live website link here.
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 * HTML
 * CSS
@@ -55,34 +28,12 @@ cd YOUR_REPO
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👑 Author
+## Author
 
-Made by **Duckycash**
-
----
-
-## ⭐ Support
-
-If you like this project:
-
-* ⭐ Star the repo
-* 🍴 Fork it
-* 🧠 Improve it
-
----
-
-## 🔥 Future Ideas
-
-* RGB animated UI
-* Password history
-* Dark/light mode toggle
-* Export passwords
-
----
-S
+Duckycash
