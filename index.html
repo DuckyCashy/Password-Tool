@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Tool v1.1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/807/807241.png">
+</head>
+<body>
+
+<div class="top-bar">🌎 Password Generator by Duckycash || Password Generator v1.1</div>
+
+<div class="container">
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button id="genTab" class="active">Generator</button>
+    <button id="testTab">Password Tester</button>
+  </div>
+
+  <!-- Generator -->
+  <div id="generator" class="tab-content active">
+    <div class="output-box">
+      <input type="text" id="password" readonly>
+      <button id="copyBtn">📋</button>
+      <button id="settingsBtn">⚙️</button>
+    </div>
+
+    <button id="generateBtn">Generate Password</button>
+    <div id="strength"></div>
+  </div>
+
+  <!-- Tester -->
+  <div id="tester" class="tab-content">
+    <input type="text" id="testInput" placeholder="Enter password...">
+    <div id="testStrength"></div>
+  </div>
+
+</div>
+
+<!-- Settings Popup -->
+<div id="settingsPopup" class="popup hidden">
+  <h3>Settings</h3>
+
+  <label>Length: <span id="lengthValue">12</span></label>
+  <input type="range" id="length" min="4" max="50" value="12">
+
+  <label><input type="checkbox" id="upper" checked> Uppercase</label>
+  <label><input type="checkbox" id="lower" checked> Lowercase</label>
+  <label><input type="checkbox" id="number" checked> Numbers</label>
+  <label><input type="checkbox" id="symbol"> Symbols</label>
+
+  <button id="closeSettings">Close</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
